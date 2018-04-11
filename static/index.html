@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title>XSS APP</title>
+    <!-- pull in jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- pull in bootstrap (prolly not needed) -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.bundle.min.js" integrity="sha384-lZmvU/TzxoIQIOD9yQDEpvxp6wEU32Fy0ckUgOH4EIlMOCdR823rg4+3gWRwnX1M"
+        crossorigin="anonymous"></script>
+    <!-- linking to css file -->
+    <link rel="stylesheet" href="main.css" />
+    <!-- pulling in our javascript file -->
+    <script src="index.js"></script>
+</head>
+
+
+<body>
+    <header>
+        <h1><strong>Cross Site Scripting Example</strong></h2>
+        <p><em>Created by Aaron Harkrider</em></p>
+    </header>
+    <main>
+        <section class="container-fluid">
+            <h3>XSS app</h3>
+            <p>
+                <input type="text" placeholder="user name" id="user-input">
+                <br>
+                <button class="btn-primary" onclick="postData()">submit</button>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>Presentation for Internship credit Spring 2018</p>
+    </footer>
+</body>
+
+
+</html>
