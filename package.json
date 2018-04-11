@@ -11,7 +11,7 @@
     "url": "git+ssh://git@bitbucket.org/bdschultz1/xss.git"
   },
   "author": "aaron harkrider",
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://bitbucket.org/bdschultz1/xss#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
