@@ -25,6 +25,7 @@ var data = [user1, user2];
 //hosting web page at localhost:3000
 app.use("/", express.static("static"));
 
+
 /**
  * GET users endpoint
  */

@@ -28,7 +28,7 @@ main {
 }
 
 main div {
-    border: 1px solid #ff4f1f;
+    /* border: 1px solid #ff4f1f; */
     padding: .5em;
     margin: .5em 0;
 }
